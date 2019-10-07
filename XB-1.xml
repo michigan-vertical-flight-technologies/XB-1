@@ -1,4 +1,4 @@
-<FDM_CONFIG NAME="{name}" VERSION="{version}">
+<FDM_CONFIG NAME="{XB-1}" VERSION="{0.1}">
 <!--
 
   File:        {file}
@@ -15,7 +15,7 @@
     Data source: {source}
     -->
     AC_WINGAREA  {area}   <!-- square feet -->
-    AC_WINGSPAN  {span}   <!-- ft          -->
+    <wingspan unit="FT"> 4.17 </wingspan>
     AC_CHORD     {chord}  <!-- ft          -->
     AC_HTAILAREA {area}   <!-- square feet -->
     AC_HTAILARM  {arm}    <!-- ft          -->
